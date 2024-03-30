@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sceng Foodie</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>ScengFoodie</a>
+
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- Search Form -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!--Home Section starts here-->
+
+    <section class="home" id="home">
+      <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>spicy rice</h3>
+              <p>
+                Sceng Foodie's spicy rice is one of the most appetizing dishes
+                you can find. It's very sumptuos.
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/chicken.avif" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>fried chicken</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cupiditate ea deleniti placeat.
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/friedchicken.avif" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>hot pizza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cupiditate ea deleniti placeat.
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/pizza.avif" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--Home Section ends here-->
+
+    <!--Dishes Section Starts-->
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/meatpie.avif" alt="" />
+          <h3>meat pie</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦2000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/sausage_roll.avif" alt="" />
+          <h3>sausage roll</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦2000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/sharwama_1.avif" alt="" />
+          <h3>sharwama</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦3000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/burger.avif" alt="" />
+          <h3>sweet burger</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦2500</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/juice.avif" alt="" />
+          <h3>fruit juice</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦1500</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/chicken_1.avif" alt="" />
+          <h3>tasty chicken</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦3500</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Dishes Section Ends-->
+
+    <!--About Section Starts-->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/spag.avif" alt="" />
+        </div>
+        <div class="content">
+          <h3>sceng foodie is the best</h3>
+          <p>
+            ipsum dolor sit amet consectetur adipisicing elit. Impedit, corrupti
+            delectus? Facere accusamus, est suscipit consequuntur, tenetur
+            dignissimos vitae animi dolorum doloribus dolorem earum quia
+            deserunt, quasi a sequi aperiam.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla
+            aut velit ex cupiditate amet dolorum eaque iste, assumenda odit.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>free delivery</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-naira-sign"></i>
+              <span>easy payment</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!--About Section Ends-->
+
+    <!--Menu Section begins-->
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">menu</h3>
+      <h1 class="heading">today's delicacy</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/fried_rice.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>jollof rice</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦2500</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/rice_sauce.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>source rice</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦2000</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/noodles.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>tasty noodles</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦1500</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/juice.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>fruit juice</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦1500</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/friedchicken.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>fried chicken</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦6000</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/sharwama_1.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>sharwama</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦3000</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/chicken_1.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>chicken sauce</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦2500</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/chicken.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>spicy rice</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦2500</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/sausage_roll.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>sausage roll</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              distinctio, dolorum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦2500</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Menu Section Ends-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+  </body>
+</html>
